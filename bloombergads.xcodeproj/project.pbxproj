@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B43DE7E282C07EC00238286 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B43DE7D282C07EC00238286 /* AppDelegate.swift */; };
+		6B43DE80282C07EC00238286 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B43DE7F282C07EC00238286 /* SceneDelegate.swift */; };
+		6B43DE83282C07EC00238286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE81282C07EC00238286 /* LaunchScreen.storyboard */; };
+		6B43DE86282C07EC00238286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE84282C07EC00238286 /* Main.storyboard */; };
+		6B43DE8F282C07EC00238286 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B43DE8E282C07EC00238286 /* AppDelegate.swift */; };
+		6B43DE92282C07EC00238286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE90282C07EC00238286 /* Main.storyboard */; };
+		6B43DE99282C07EC00238286 /* bloombergads Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6B43DE98282C07EC00238286 /* bloombergads Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6B43DEA3282C07EC00238286 /* bloombergads Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6B43DEA2282C07EC00238286 /* bloombergads Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6B43DEA9282C07EC00238286 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE64282C07EB00238286 /* Main.html */; };
+		6B43DEAA282C07EC00238286 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE64282C07EB00238286 /* Main.html */; };
+		6B43DEAB282C07EC00238286 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE66282C07EB00238286 /* Icon.png */; };
+		6B43DEAC282C07EC00238286 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE66282C07EB00238286 /* Icon.png */; };
+		6B43DEAD282C07EC00238286 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE67282C07EB00238286 /* Style.css */; };
+		6B43DEAE282C07EC00238286 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE67282C07EB00238286 /* Style.css */; };
+		6B43DEAF282C07EC00238286 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE68282C07EB00238286 /* Script.js */; };
+		6B43DEB0282C07EC00238286 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE68282C07EB00238286 /* Script.js */; };
+		6B43DEB1282C07EC00238286 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B43DE69282C07EB00238286 /* ViewController.swift */; };
+		6B43DEB2282C07EC00238286 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B43DE69282C07EB00238286 /* ViewController.swift */; };
+		6B43DEB3282C07EC00238286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE6A282C07EB00238286 /* Assets.xcassets */; };
+		6B43DEB4282C07EC00238286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE6A282C07EB00238286 /* Assets.xcassets */; };
+		6B43DEB5282C07EC00238286 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B43DE6C282C07EB00238286 /* SafariWebExtensionHandler.swift */; };
+		6B43DEB6282C07EC00238286 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B43DE6C282C07EB00238286 /* SafariWebExtensionHandler.swift */; };
+		6B43DEB7282C07EC00238286 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE6E282C07EB00238286 /* _locales */; };
+		6B43DEB8282C07EC00238286 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE6E282C07EB00238286 /* _locales */; };
+		6B43DEB9282C07EC00238286 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE6F282C07EB00238286 /* images */; };
+		6B43DEBA282C07EC00238286 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE6F282C07EB00238286 /* images */; };
+		6B43DEBB282C07EC00238286 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE70282C07EB00238286 /* manifest.json */; };
+		6B43DEBC282C07EC00238286 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE70282C07EB00238286 /* manifest.json */; };
+		6B43DEBD282C07EC00238286 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE71282C07EB00238286 /* background.js */; };
+		6B43DEBE282C07EC00238286 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE71282C07EB00238286 /* background.js */; };
+		6B43DEBF282C07EC00238286 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE72282C07EB00238286 /* content.js */; };
+		6B43DEC0282C07EC00238286 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE72282C07EB00238286 /* content.js */; };
+		6B43DEC1282C07EC00238286 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE73282C07EB00238286 /* popup.html */; };
+		6B43DEC2282C07EC00238286 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE73282C07EB00238286 /* popup.html */; };
+		6B43DEC3282C07EC00238286 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE74282C07EB00238286 /* popup.css */; };
+		6B43DEC4282C07EC00238286 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE74282C07EB00238286 /* popup.css */; };
+		6B43DEC5282C07EC00238286 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE75282C07EB00238286 /* popup.js */; };
+		6B43DEC6282C07EC00238286 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 6B43DE75282C07EB00238286 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B43DE9A282C07EC00238286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B43DE5E282C07EB00238286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B43DE97282C07EC00238286;
+			remoteInfo = "bloombergads Extension (iOS)";
+		};
+		6B43DEA4282C07EC00238286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B43DE5E282C07EB00238286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B43DEA1282C07EC00238286;
+			remoteInfo = "bloombergads Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6B43DECC282C07EC00238286 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6B43DE99282C07EC00238286 /* bloombergads Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B43DED3282C07EC00238286 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6B43DEA3282C07EC00238286 /* bloombergads Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6B43DE65282C07EB00238286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		6B43DE66282C07EB00238286 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6B43DE67282C07EB00238286 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		6B43DE68282C07EB00238286 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		6B43DE69282C07EB00238286 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B43DE6A282C07EB00238286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B43DE6C282C07EB00238286 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		6B43DE6E282C07EB00238286 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		6B43DE6F282C07EB00238286 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		6B43DE70282C07EB00238286 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		6B43DE71282C07EB00238286 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		6B43DE72282C07EB00238286 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		6B43DE73282C07EB00238286 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		6B43DE74282C07EB00238286 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		6B43DE75282C07EB00238286 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		6B43DE7A282C07EC00238286 /* bloombergads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bloombergads.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B43DE7D282C07EC00238286 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B43DE7F282C07EC00238286 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6B43DE82282C07EC00238286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B43DE85282C07EC00238286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B43DE87282C07EC00238286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B43DE8C282C07EC00238286 /* bloombergads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bloombergads.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B43DE8E282C07EC00238286 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B43DE91282C07EC00238286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B43DE93282C07EC00238286 /* bloombergads.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bloombergads.entitlements; sourceTree = "<group>"; };
+		6B43DE98282C07EC00238286 /* bloombergads Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "bloombergads Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B43DE9D282C07EC00238286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B43DEA2282C07EC00238286 /* bloombergads Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "bloombergads Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B43DEA7282C07EC00238286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B43DEA8282C07EC00238286 /* bloombergads.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bloombergads.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B43DE77282C07EB00238286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B43DE89282C07EC00238286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B43DE95282C07EC00238286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B43DE9F282C07EC00238286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B43DE5D282C07EB00238286 = {
+			isa = PBXGroup;
+			children = (
+				6B43DE62282C07EB00238286 /* Shared (App) */,
+				6B43DE6B282C07EB00238286 /* Shared (Extension) */,
+				6B43DE7C282C07EC00238286 /* iOS (App) */,
+				6B43DE8D282C07EC00238286 /* macOS (App) */,
+				6B43DE9C282C07EC00238286 /* iOS (Extension) */,
+				6B43DEA6282C07EC00238286 /* macOS (Extension) */,
+				6B43DE7B282C07EC00238286 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B43DE62282C07EB00238286 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				6B43DE69282C07EB00238286 /* ViewController.swift */,
+				6B43DE6A282C07EB00238286 /* Assets.xcassets */,
+				6B43DE63282C07EB00238286 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		6B43DE63282C07EB00238286 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B43DE64282C07EB00238286 /* Main.html */,
+				6B43DE66282C07EB00238286 /* Icon.png */,
+				6B43DE67282C07EB00238286 /* Style.css */,
+				6B43DE68282C07EB00238286 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6B43DE6B282C07EB00238286 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				6B43DE6C282C07EB00238286 /* SafariWebExtensionHandler.swift */,
+				6B43DE6D282C07EB00238286 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		6B43DE6D282C07EB00238286 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B43DE6E282C07EB00238286 /* _locales */,
+				6B43DE6F282C07EB00238286 /* images */,
+				6B43DE70282C07EB00238286 /* manifest.json */,
+				6B43DE71282C07EB00238286 /* background.js */,
+				6B43DE72282C07EB00238286 /* content.js */,
+				6B43DE73282C07EB00238286 /* popup.html */,
+				6B43DE74282C07EB00238286 /* popup.css */,
+				6B43DE75282C07EB00238286 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6B43DE7B282C07EC00238286 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B43DE7A282C07EC00238286 /* bloombergads.app */,
+				6B43DE8C282C07EC00238286 /* bloombergads.app */,
+				6B43DE98282C07EC00238286 /* bloombergads Extension.appex */,
+				6B43DEA2282C07EC00238286 /* bloombergads Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B43DE7C282C07EC00238286 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				6B43DE7D282C07EC00238286 /* AppDelegate.swift */,
+				6B43DE7F282C07EC00238286 /* SceneDelegate.swift */,
+				6B43DE81282C07EC00238286 /* LaunchScreen.storyboard */,
+				6B43DE84282C07EC00238286 /* Main.storyboard */,
+				6B43DE87282C07EC00238286 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		6B43DE8D282C07EC00238286 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				6B43DE8E282C07EC00238286 /* AppDelegate.swift */,
+				6B43DE90282C07EC00238286 /* Main.storyboard */,
+				6B43DE93282C07EC00238286 /* bloombergads.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		6B43DE9C282C07EC00238286 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				6B43DE9D282C07EC00238286 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		6B43DEA6282C07EC00238286 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				6B43DEA7282C07EC00238286 /* Info.plist */,
+				6B43DEA8282C07EC00238286 /* bloombergads.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B43DE79282C07EB00238286 /* bloombergads (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B43DECD282C07EC00238286 /* Build configuration list for PBXNativeTarget "bloombergads (iOS)" */;
+			buildPhases = (
+				6B43DE76282C07EB00238286 /* Sources */,
+				6B43DE77282C07EB00238286 /* Frameworks */,
+				6B43DE78282C07EB00238286 /* Resources */,
+				6B43DECC282C07EC00238286 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B43DE9B282C07EC00238286 /* PBXTargetDependency */,
+			);
+			name = "bloombergads (iOS)";
+			productName = "bloombergads (iOS)";
+			productReference = 6B43DE7A282C07EC00238286 /* bloombergads.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B43DE8B282C07EC00238286 /* bloombergads (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B43DED4282C07EC00238286 /* Build configuration list for PBXNativeTarget "bloombergads (macOS)" */;
+			buildPhases = (
+				6B43DE88282C07EC00238286 /* Sources */,
+				6B43DE89282C07EC00238286 /* Frameworks */,
+				6B43DE8A282C07EC00238286 /* Resources */,
+				6B43DED3282C07EC00238286 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B43DEA5282C07EC00238286 /* PBXTargetDependency */,
+			);
+			name = "bloombergads (macOS)";
+			productName = "bloombergads (macOS)";
+			productReference = 6B43DE8C282C07EC00238286 /* bloombergads.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B43DE97282C07EC00238286 /* bloombergads Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B43DEC9282C07EC00238286 /* Build configuration list for PBXNativeTarget "bloombergads Extension (iOS)" */;
+			buildPhases = (
+				6B43DE94282C07EC00238286 /* Sources */,
+				6B43DE95282C07EC00238286 /* Frameworks */,
+				6B43DE96282C07EC00238286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bloombergads Extension (iOS)";
+			productName = "bloombergads Extension (iOS)";
+			productReference = 6B43DE98282C07EC00238286 /* bloombergads Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		6B43DEA1282C07EC00238286 /* bloombergads Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B43DED0282C07EC00238286 /* Build configuration list for PBXNativeTarget "bloombergads Extension (macOS)" */;
+			buildPhases = (
+				6B43DE9E282C07EC00238286 /* Sources */,
+				6B43DE9F282C07EC00238286 /* Frameworks */,
+				6B43DEA0282C07EC00238286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bloombergads Extension (macOS)";
+			productName = "bloombergads Extension (macOS)";
+			productReference = 6B43DEA2282C07EC00238286 /* bloombergads Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B43DE5E282C07EB00238286 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					6B43DE79282C07EB00238286 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					6B43DE8B282C07EC00238286 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					6B43DE97282C07EC00238286 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					6B43DEA1282C07EC00238286 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6B43DE61282C07EB00238286 /* Build configuration list for PBXProject "bloombergads" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B43DE5D282C07EB00238286;
+			productRefGroup = 6B43DE7B282C07EC00238286 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B43DE79282C07EB00238286 /* bloombergads (iOS) */,
+				6B43DE8B282C07EC00238286 /* bloombergads (macOS) */,
+				6B43DE97282C07EC00238286 /* bloombergads Extension (iOS) */,
+				6B43DEA1282C07EC00238286 /* bloombergads Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B43DE78282C07EB00238286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B43DEAB282C07EC00238286 /* Icon.png in Resources */,
+				6B43DE83282C07EC00238286 /* LaunchScreen.storyboard in Resources */,
+				6B43DEA9282C07EC00238286 /* Main.html in Resources */,
+				6B43DEAF282C07EC00238286 /* Script.js in Resources */,
+				6B43DEB3282C07EC00238286 /* Assets.xcassets in Resources */,
+				6B43DE86282C07EC00238286 /* Main.storyboard in Resources */,
+				6B43DEAD282C07EC00238286 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B43DE8A282C07EC00238286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B43DEAC282C07EC00238286 /* Icon.png in Resources */,
+				6B43DEAE282C07EC00238286 /* Style.css in Resources */,
+				6B43DE92282C07EC00238286 /* Main.storyboard in Resources */,
+				6B43DEB0282C07EC00238286 /* Script.js in Resources */,
+				6B43DEB4282C07EC00238286 /* Assets.xcassets in Resources */,
+				6B43DEAA282C07EC00238286 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B43DE96282C07EC00238286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B43DEBD282C07EC00238286 /* background.js in Resources */,
+				6B43DEC3282C07EC00238286 /* popup.css in Resources */,
+				6B43DEC1282C07EC00238286 /* popup.html in Resources */,
+				6B43DEB9282C07EC00238286 /* images in Resources */,
+				6B43DEBB282C07EC00238286 /* manifest.json in Resources */,
+				6B43DEB7282C07EC00238286 /* _locales in Resources */,
+				6B43DEBF282C07EC00238286 /* content.js in Resources */,
+				6B43DEC5282C07EC00238286 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B43DEA0282C07EC00238286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B43DEBE282C07EC00238286 /* background.js in Resources */,
+				6B43DEC4282C07EC00238286 /* popup.css in Resources */,
+				6B43DEC2282C07EC00238286 /* popup.html in Resources */,
+				6B43DEBA282C07EC00238286 /* images in Resources */,
+				6B43DEBC282C07EC00238286 /* manifest.json in Resources */,
+				6B43DEB8282C07EC00238286 /* _locales in Resources */,
+				6B43DEC0282C07EC00238286 /* content.js in Resources */,
+				6B43DEC6282C07EC00238286 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B43DE76282C07EB00238286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B43DEB1282C07EC00238286 /* ViewController.swift in Sources */,
+				6B43DE7E282C07EC00238286 /* AppDelegate.swift in Sources */,
+				6B43DE80282C07EC00238286 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B43DE88282C07EC00238286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B43DEB2282C07EC00238286 /* ViewController.swift in Sources */,
+				6B43DE8F282C07EC00238286 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B43DE94282C07EC00238286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B43DEB5282C07EC00238286 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B43DE9E282C07EC00238286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B43DEB6282C07EC00238286 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B43DE9B282C07EC00238286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B43DE97282C07EC00238286 /* bloombergads Extension (iOS) */;
+			targetProxy = 6B43DE9A282C07EC00238286 /* PBXContainerItemProxy */;
+		};
+		6B43DEA5282C07EC00238286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B43DEA1282C07EC00238286 /* bloombergads Extension (macOS) */;
+			targetProxy = 6B43DEA4282C07EC00238286 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B43DE64282C07EB00238286 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B43DE65282C07EB00238286 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		6B43DE81282C07EC00238286 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B43DE82282C07EC00238286 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6B43DE84282C07EC00238286 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B43DE85282C07EC00238286 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B43DE90282C07EC00238286 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B43DE91282C07EC00238286 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B43DEC7282C07EC00238286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B43DEC8282C07EC00238286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6B43DECA282C07EC00238286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PRLP6W5S32;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "bloombergads Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.larryhou.bloombergads.Extension;
+				PRODUCT_NAME = "bloombergads Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B43DECB282C07EC00238286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PRLP6W5S32;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "bloombergads Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.larryhou.bloombergads.Extension;
+				PRODUCT_NAME = "bloombergads Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B43DECE282C07EC00238286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PRLP6W5S32;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = bloombergads;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.larryhou.bloombergads;
+				PRODUCT_NAME = bloombergads;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B43DECF282C07EC00238286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PRLP6W5S32;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = bloombergads;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.larryhou.bloombergads;
+				PRODUCT_NAME = bloombergads;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B43DED1282C07EC00238286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/bloombergads.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PRLP6W5S32;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "bloombergads Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.larryhou.bloombergads.Extension;
+				PRODUCT_NAME = "bloombergads Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6B43DED2282C07EC00238286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/bloombergads.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PRLP6W5S32;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "bloombergads Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.larryhou.bloombergads.Extension;
+				PRODUCT_NAME = "bloombergads Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6B43DED5282C07EC00238286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/bloombergads.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PRLP6W5S32;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = bloombergads;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.larryhou.bloombergads;
+				PRODUCT_NAME = bloombergads;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6B43DED6282C07EC00238286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/bloombergads.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PRLP6W5S32;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = bloombergads;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.larryhou.bloombergads;
+				PRODUCT_NAME = bloombergads;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B43DE61282C07EB00238286 /* Build configuration list for PBXProject "bloombergads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B43DEC7282C07EC00238286 /* Debug */,
+				6B43DEC8282C07EC00238286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B43DEC9282C07EC00238286 /* Build configuration list for PBXNativeTarget "bloombergads Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B43DECA282C07EC00238286 /* Debug */,
+				6B43DECB282C07EC00238286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B43DECD282C07EC00238286 /* Build configuration list for PBXNativeTarget "bloombergads (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B43DECE282C07EC00238286 /* Debug */,
+				6B43DECF282C07EC00238286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B43DED0282C07EC00238286 /* Build configuration list for PBXNativeTarget "bloombergads Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B43DED1282C07EC00238286 /* Debug */,
+				6B43DED2282C07EC00238286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B43DED4282C07EC00238286 /* Build configuration list for PBXNativeTarget "bloombergads (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B43DED5282C07EC00238286 /* Debug */,
+				6B43DED6282C07EC00238286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B43DE5E282C07EB00238286 /* Project object */;
+}
