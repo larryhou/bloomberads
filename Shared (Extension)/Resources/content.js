@@ -9,21 +9,26 @@ browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
 function removeAds(node) {
     switch(node.nodeType) {
-        case Node.ELEMENT_NODE: {
+        case Node.ELEMENT_NODE:
             var placeholder = node.getAttribute("data-ad-placeholder");
-            var root = node.getAttribute("data-component-root");
-            var id = node.getAttribute("class");
-            if (placeholder || root == "LeaderboardAd" || (id&&id.includes("page-ad"))) {
-                node.parentNode.removeChild(node);
+            if (placeholder) {
+                var container = node.parentNode;
+                container.parentNode.removeChild(container);
+            } else {
+                var root = node.getAttribute("data-component-root");
+                var id = node.getAttribute("class");
+                if (root == "LeaderboardAd" || (id&&id.includes("page-ad"))) {
+                    node.parentNode.removeChild(node);
+                } else {
+                    var child = node.firstChild;
+                    while(child) {
+                        var next = child.nextSibling;
+                        removeAds(child);
+                        child = next;
+                    }
+                }
             }
-            
-            var child = node.firstChild;
-            while(child) {
-                var next = child.nextSibling;
-                removeAds(child);
-                child = next;
-            }
-        } break;
+            break;
     }
 }
 
