@@ -34,5 +34,5 @@ function removeAds(node) {
         e.forEach(rec=>rec.addedNodes.length&&num++);
         if (num) {removeAds(node);}
     });
-    obs.observe(node,{childList:true, subtree:true });
+    obs.observe(node, {childList:true, subtree:true});
 })(document.body);
